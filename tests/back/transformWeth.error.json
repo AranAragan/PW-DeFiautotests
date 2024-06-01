@@ -1,0 +1,6 @@
+{
+    "reason": "data signature does not match function transformWeth.",
+    "code": "INVALID_ARGUMENT",
+    "argument": "data",
+    "value": "0x832b24bb000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee000000000000000000000000000000000000000004d8c55aefb8c05b5c000000"
+}

@@ -1,0 +1,38 @@
+[
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bestCaseAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"internalType": "struct PositiveSlippageFeeTransforme.PositiveSlippageFeeTransformerData",
+				"name": "context",
+				"type": "tuple"
+			}
+		],
+		"name": "transform",
+		"outputs": [
+			{
+				"internalType": "bytes4",
+				"name": "success",
+				"type": "bytes4"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

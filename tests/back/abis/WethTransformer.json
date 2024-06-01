@@ -1,0 +1,33 @@
+[
+	{
+	  "inputs": [
+		{
+		  "components": [
+			{
+			  "internalType": "address",
+			  "name": "token",
+			  "type": "address"
+			},
+			{
+			  "internalType": "uint256",
+			  "name": "amount",
+			  "type": "uint256"
+			}
+		  ],
+		  "internalType": "struct WethTransformer.TransformData",
+		  "name": "context",
+		  "type": "tuple"
+		}
+	  ],
+	  "name": "transformWeth",
+	  "outputs": [
+		{
+		  "internalType": "bytes4",
+		  "name": "success",
+		  "type": "bytes4"
+		}
+	  ],
+	  "stateMutability": "nonpayable",
+	  "type": "function"
+	}
+  ]
